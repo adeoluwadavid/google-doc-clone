@@ -4,12 +4,13 @@
   "description": "This is the backend for google-docs clone",
   "main": "server.js",
   "scripts": {
-    "start":"nodemon server.js",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "David Adewole",
   "license": "MIT",
   "dependencies": {
+    "mongoose": "^5.13.2",
     "nodemon": "^2.0.9",
     "socket.io": "^4.1.2"
   }
